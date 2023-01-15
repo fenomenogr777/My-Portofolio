@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap'); </style>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico" />
+    <script defer src="scripts/script.js"></script>
+    <script defer src="scripts/practise.js"></script>
+    <title>Nikos | Junior Web Developer</title>
+    <link href="css/general.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!----------------------------- HEADER --------------------->
+    <div class="view-100"id="top" >
+
+    <header class="header">
+      <div class="header-logo"><a class="header-logo-link" href="#top">
+
+        <img  class="logo-img" src="imgs/logoNew.png" />
+      </a>
+    </div>
+
+      <nav class="header_tag">
+        <a class="nav-link" id="link--1" href="#about">About</a>
+        <a class="nav-link" id="link--2" href="#skills">Skills</a>
+        <a class="nav-link" id="link--3" href="#projects">Projects</a>
+        <a class="btn contact nav-link  " id="link--4" href="#contact">Contact Me</a>
+        
+          
+        </a>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!-------------------- SOCIAL FIXED ------------------>
+      <div class="social">
+        <a  href="#" target="_blank"
+          ><ion-icon class="social-icon" id="social--1"  name="logo-github"></ion-icon
+        ></a>
+        <a  href="#" target="_blank"
+          ><ion-icon class="social-icon" id="social--2"   name="logo-linkedin"></ion-icon
+        ></a>
+        <a   href="#" target="_blank"
+          ><ion-icon class="social-icon" id="social--3" name="logo-twitter"></ion-icon
+        ></a>
+      </div>
+
+      <!---------------- HERO --------------------------->
+
+        <section class="hero-section container" id="hero">
+          <div class="hero-text">
+            <p>Junior Web Developer</p>
+            <h1>Hi, Ι'm <span class="nikos">Nikos</span><br>Chionis from Greece</h1>
+            <div class="hero-scroll">
+              <p>Scroll down</p>
+              <img src="/imgs/scroll-down.svg">
+            </div>
+            <!-- <p>My passion is to design and code beautifully<br> simple things.</p> -->
+          </div>
+          <div class="hero-img-box">
+            <img class="hero-img" src="imgs/hero-circle.webp" />
+          </div>
+        </section>
+      </div>
+
+      <!------------------------------ ABOUT ---------------->
+      <div id="about">
+      <section class="about-section container" >
+        <h2 class="primary-title">Me,myself & I</h2>
+      
+        <div class="about-box">
+          <div class="text-box">
+            <h2>About Me</h2>
+            <p class="about-text">
+              My name is Nikos Chionis, i'm from Greece and I am a self-taught junior
+              front-end developer,with knowledge of Html/Css/javaScript/React.<br>
+              Adapt at contributing to a highly collaborative work environment,
+              finding solutions, and determining customer satisfaction.
+            </p>
+          </div>
+
+
+          <div class="about-img-box">
+            <img class="about-img" src="imgs/about-bitmoji.webp" />
+          </div>
+        </div>
+        <div class="about-skill-box" id="skills">
+          <h5>I have become confident using the following technologies.</h5>
+
+          <div class="about-skill">
+            <div class="about-skill-text">
+              <img src="imgs/html-1.svg" alt="" class="skill-img"/>
+              HTML</div>
+              <div class="about-skill-text">
+                <img src="imgs/css-3.svg" alt="" class="skill-img" />
+                CSS</div>
+            <div class="about-skill-text">
+            <img src="imgs/javascript-1.svg" alt="" class="skill-img" />
+            JAVASCRIPT</div>
+            <div class="about-skill-text">
+            <img src="imgs/react-2.svg" alt="" class="skill-img"  />
+            REACT</div>
+          </div>
+
+          <div class="certifs">
+    
+
+          </div>
+
+
+        </section>
+      </div>
+
+      <!-------------------- PROJECTS ------------------------->
+  
+                     
+
+        <section class="project-section container" id="projects">
+      
+          <h2 class="primary-title">PROJECTS</h2>
+
+          <div class="project-btnsParent">
+
+            <div class="project-btns">
+              
+              <button class="project-btn project-btn--1 01vb active-project-btn" data-btn="--1"  id="01">List view</button>
+              <button class="project-btn project-btn--2 02vb " data-btn="--2" id="02">Slide view</button>
+            </div>
+          </div>
+
+
+<div class="project-display-box view-01  active-project">
+
+  <div class="project-bigbox">
+    <div class="project-box">
+      <img class="project-img" src="imgs/imnifood-project.webp">
+      <div class="project-text">
+        <h4>Omnifood-Udemy</h4>
+        <p>Imaginary restaurant website
+        </p>
+        <span>Tech Stack - Html,Css,JavaScript</span>
+        <div class="project-text-btn">
+          <a class="btn " target="_blank" href="#">Github</a>
+          <a class="btn" target="_blank" href="#">Demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="project-box">
+      <img class="project-img" src="imgs/guessnumber.png">
+      <div class="project-text">
+        <h4>Guess my Number-Udemy</h4>
+        <p>Game:You have to guess the number
+        </p>
+        <span>Tech Stack - Html,Css,JavaScript</span>
+        <div class="project-text-btn">
+          <a class="btn" href="#">Github</a>
+          <a class="btn" href="#">Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-box">
+          <img class="project-img" src="imgs/project-portofolio.webp">
+          <div class="project-text">
+            <h4>My Portofolio</h4>
+            <p>Portfolio made from using React.js
+            </p>
+            <span>Tech Stack - Html,Css,JavaScript</span>
+            <div class="project-text-btn">
+              <a class="btn" href="#">Github</a>
+              <a class="btn" href="#">Demo</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+<!-- arxh -->
+      <div class="project-display-box view-02">
+
+<div class="projest-slide-bigbox">
+<button class="right-btn"><ion-icon name="chevron-forward-outline"></ion-icon></button>
+<button class="left-btn"><ion-icon name="chevron-back-outline"></ion-icon></button>
+
+<!-- 001 -->
+<div class="project-slide-box project-slide-box--1" id="--01">
+  <div class="slide-width">
+
+    <h4>title</h4>
+    <img src="imgs/imnifood-project.webp">
+    <p>perigrafh</p>
+    <span>tech stak js css html</span>
+    <button class="btn">github</button>
+    <button class="btn">Demo</button>
+  </div>
+</div>
+
+<!-- 002 -->
+<div class="project-slide-box project-slide-box--2" id="--02">
+  <div class="slide-width">
+
+    <h4>title</h4>
+    <img src="imgs/guessnumber.png">
+    <p>perigrafh</p>
+    <span>tech stak js css html</span>
+    <button class="btn">github</button>
+    <button class="btn">Demo</button>
+  </div>
+</div>
+
+<!-- 003 -->
+<div class="project-slide-box project-slide-box--3" id="--03">
+  <div class="slide-width">
+
+    <h4>title</h4>
+    <img src="imgs/project-portofolio.webp">
+    <p>perigrafh</p>
+    <span>tech stak js css html</span>
+    <button class="btn">github</button>
+    <button class="btn">Demo</button>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+      </div>
+<!-- telos -->
+    
+
+    </section>
+    
+
+      <!-------------------------- CONTACT ------------------>
+      <section class="contact-section container" id="contact">
+        <h2 class="primary-title">Contact Me</h2>
+        <div class="contact-box-all">
+
+          <div class="contact-form">
+<form class="form" action="">
+
+  <input class="name" type="text" placeholder="Name">
+  <input class="mail" type="email" placeholder="Email">
+  <input class="subject" type="text" placeholder="Subject">
+  <input class="message" type="text" placeholder="Message" >
+  <input class="submit btn" type="submit">
+
+
+</form>
+
+          </div>
+          <div><img class="contact-img" src="imgs/contact-bitmoji.webp"></div>
+        </div>
+        </section>
+    </main>
+
+ 
+    <!-- ----------------- FOOTER --------------------------------- -->
+    <footer class="footer">
+      <p>Copyright© <span class="footer-year">`${currYear}`</span> by Nikos Chionis, Inc. All rights reserved.</p>
+    </footer>
+
+  
+  </body>
+</html>
+
