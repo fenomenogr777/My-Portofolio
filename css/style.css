@@ -518,3 +518,13 @@ input::placeholder {
   display: flex;
   justify-content: center;
 }
+
+.nnn1 {
+  font-size: 5rem;
+}
+
+.nnn2 {
+  font-size: 6.4rem;
+  color: var(--red);
+  font-weight: 700;
+}

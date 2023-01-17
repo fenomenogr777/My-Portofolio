@@ -42,7 +42,6 @@ body {
   margin: 0 auto;
 }
 
-
 a:link,
 a:visited {
   text-decoration: none;
@@ -57,13 +56,16 @@ a:visited {
   color: var(--light);
   display: flex;
   align-items: center;
-  transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease;
   cursor: pointer;
   display: inline-block;
 }
 
 .btn:hover {
   background: #c92a2a;
+}
+.btn:active {
+  transform: scale(0.95);
 }
 
 .flex {
