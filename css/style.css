@@ -126,8 +126,10 @@
   height: 100vh;
 }
 .nikos {
+  font-weight: 500;
   display: inline-block;
 }
+
 
 .hero-scroll {
   margin-top: 7rem;
