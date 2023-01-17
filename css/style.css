@@ -130,7 +130,6 @@
   display: inline-block;
 }
 
-
 .hero-scroll {
   margin-top: 7rem;
   display: flex;
@@ -523,6 +522,7 @@ input::placeholder {
 
 .nnn1 {
   font-size: 5rem;
+  transition: all 400ms ease;
 }
 
 .nnn2 {
