@@ -9,7 +9,7 @@ footerYear.textContent = currYear;
 const hero = document.querySelector(".hero-section");
 const header = document.querySelector(".header");
 const headerHeight = header.getBoundingClientRect().height;
-const logo = document.querySelector(".logo-img");
+const logo = document.querySelector(".nnn1");
 const headerHeigh = header.getBoundingClientRect();
 document.documentElement.style.setProperty("--height", `${headerHeight}px`);
 window.addEventListener("scroll", function (e) {});
