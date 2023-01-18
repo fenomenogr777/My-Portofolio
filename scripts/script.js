@@ -1,4 +1,23 @@
 "use strict";
+// --------------- LEAFLET MAP-----------------------------
+
+navigator.geolocation.getCurrentPosition(function(p){
+  const myCoords=[38.0928085,20.6884188]
+  const map = L.map('map').setView([...myCoords], 6.5);
+
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
+  
+  L.marker([...myCoords]).addTo(map)
+      .openPopup();
+},function(){
+  alert(`Cant find your position`)
+})
+
+
+
 
 // --------------- COPYRIGHT YEAR-----------------------------
 const currYear = new Date().getFullYear();

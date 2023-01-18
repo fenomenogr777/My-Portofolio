@@ -530,3 +530,17 @@ input::placeholder {
   color: var(--red);
   font-weight: 700;
 }
+
+.map-box{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+#map{
+  border-radius: 9px;
+  display: flex;
+  height: 40rem;
+  width: 50%;
+}
