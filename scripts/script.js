@@ -42,7 +42,7 @@ const obs = new IntersectionObserver(
   {
     root: null,
     threshold: 0.2,
-    rootMargin: `-${headerHeight}px`,
+    // rootMargin: `-${headerHeight}px`,
   }
 );
 obs.observe(hero);
