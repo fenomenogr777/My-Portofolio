@@ -15,17 +15,20 @@
 
 /* HEADER */
 .contact {
+ 
   padding: 1.5rem 3rem;
   font-size: 2rem;
 }
 
 .header {
+  max-width: 130rem;
   height: 8rem;
-  padding: 6rem 40rem;
+  padding: 4.4rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 6.2rem;
+  margin: 0 auto;
 }
 
 .sticky.header {
@@ -40,7 +43,7 @@
   z-index: 999;
   transform: translate(-50%);
   background-color: hsla(210, 10%, 11%, 0.904);
-  padding: 3rem 40rem;
+  padding: 3rem 0;
 }
 
 .logo-img {
@@ -151,7 +154,7 @@
 }
 
 .hero-text {
- 
+ padding-left: 3rem;
   display: flex;
   flex-direction: column;
   margin-top: 7rem;
