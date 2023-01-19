@@ -24,7 +24,7 @@ footerYear.textContent = currYear;
 // --------------- STICKY HEADER-----------------------------
 const hero = document.querySelector(".hero-section");
 const header = document.querySelector(".header");
-const headerHeight = header.getBoundingClientRect().height;
+const headerHeight = +header.getBoundingClientRect().height;
 const logo = document.querySelector(".nnn1");
 const headerHeigh = header.getBoundingClientRect();
 document.documentElement.style.setProperty("--height", `${headerHeight}px`);
@@ -42,7 +42,7 @@ const obs = new IntersectionObserver(
   {
     root: null,
     threshold: 0.2,
-    // rootMargin: `-${headerHeight}px`,
+    rootMargin: `-${headerHeight}px`,
   }
 );
 obs.observe(hero);

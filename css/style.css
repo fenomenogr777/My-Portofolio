@@ -30,6 +30,7 @@
   font-size: 6.2rem;
   margin: 0 auto;
   position: relative;
+  margin-bottom: 9.2rem;
 }
 
 .sticky.header {
@@ -160,7 +161,6 @@
   padding-left: 3rem;
   display: flex;
   flex-direction: column;
-  margin-top: 7rem;
   gap: 3rem;
   font-weight: 400;
 }
@@ -201,6 +201,7 @@
 .hero-section {
   width: 120rem;
   margin: 0 auto;
+  
   font-size: 8rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
